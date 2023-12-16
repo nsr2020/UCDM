@@ -1,0 +1,174 @@
+
+
+iframe{
+display: none;
+width: 280px;
+height: 280px;
+ margin-top: 190px;
+ position: absolute;
+ z-index: 2;
+}
+
+
+section{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+ background-color:#9a98b5; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+section img{
+  width: 330px;
+  height: 350px;
+  position: fixed;
+  bottom: 13px;
+  display: flex;
+}
+.picture.showed{
+  display: flex;
+}
+
+@media(max-width:343px){
+  iframe{
+    display: none;
+    width: 230px;
+    height: 230px;
+     margin-top: 190px;
+     position: absolute;
+     z-index: 2;
+    }
+    section img{
+      width: 272px;
+      height: 280px;
+      position: absolute;
+      bottom: 48px;
+      display: flex;
+    } 
+
+}
+@media(max-width:376px){
+ 
+    section img{
+      width: 272px;
+      height: 280px;
+      position: absolute;
+      bottom: 98px;
+      display: flex;
+    } 
+
+}
+@media(max-width:415px){
+ 
+  section img{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    bottom: 188px;
+    display: flex;
+  } 
+
+}
+@media(max-width:391px){
+ 
+  section img{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    bottom: 168px;
+    display: flex;
+  } 
+
+}
+@media(max-width:431px){
+ 
+  section img{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    bottom: 208px;
+    display: flex;
+  } 
+
+}
+@media(max-width:361px){
+ 
+  section img{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    bottom: 115px;
+    display: flex;
+  } 
+
+}
+@media(max-width:769px){
+ 
+  section img{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    bottom: 255px;
+    display: flex;
+  } 
+
+}
+@media(max-width:821px){
+ 
+  section img{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    bottom: 330px;
+    display: flex;
+  } 
+
+}
+@media(max-width:1025px){
+ 
+  section img{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    bottom: 420px;
+    display: flex;
+  } 
+
+}
+
+@media(max-width:541px){
+ 
+  section img{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+  } 
+
+}
+@media(max-width:281px){
+ 
+  section img{
+    width: 260px;
+    height: 270px;
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+  } 
+
+}
+@media(max-width:413px){
+ 
+  section img{
+    width: 320px;
+    height: 320px;
+  
+    bottom: 200px;
+    
+  } 
+
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: ffcbf2;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/dnju3aw4b/image/upload/v1702684386/UCDM/descarga_vfaskm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+  height: 100vh;
+}
+.app h1{
+  color: blue;
+  margin-top: 10px;
+font-family: Whisper;
+font-weight: bolder;
+
+}
+.app p{
+  color:black;
+ font-weight: bolder;
+  width: 160px;
+  text-align: justify;
+  margin-top: 0px;
+  font-family: Whisper;
+  font-size: 22px;
+  z-index: 4;
+
+}
+.app img{
+  position: absolute;
+width: 350px;
+opacity: 0.5;
+top: 20%;
+
+}
+.app button{
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #e40084;
+  color:#ffff94;
+  font-weight: bolder;
+  cursor: pointer;
+  
+  font-size: 11px;
+  text-transform: uppercase;
+  
+  }
+  .app button:hover{
+ 
+    background-color: #ffff94;
+    color:#e40084;
+    
+    
+    }
+    .app.hidden{
+  display: none;
+      transition: all 0.5s; 
+/*       opacity: 0; 
+      transform: scale(0.8); 
+      transition: opacity 3s, transform 3s;
+     
+      pointer-events: none; */
+    }
+
+
+body{
+  background-color: #9a98b5; 
+}
+
+@media (max-width:349px){
+
+  .app img{
+  width: 270px;
+ top: 30%;
+ right: 0px;
+  }
+  .app p{
+    font-size: 18px;
+    position: absolute;
+    top: 40%;
+    right: 38px;
+    z-index: 4;
+  }
+  .app{
+    justify-content: space-between;
+
+  }
+  .app button{
+    margin-bottom: 30px;
+  }
+  .app h1{
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 415px){
+  .app{
+    justify-content: space-around;
+  }
+  .app img{
+    width: 320px;
+   top: 33%;
+   right: 70px;
+    }
+}
+@media (max-width: 376px){
+  .app{
+    justify-content: space-around;
+  }
+  .app img{
+    width: 320px;
+   top: 27%;
+   right: 60px;
+    }
+}
+@media (max-width: 431px){
+  .app{
+    justify-content: space-around;
+  }
+  .app img{
+    width: 320px;
+   top: 34%;
+   right: 60px;
+    }
+}
+@media (max-width: 361px){
+  .app{
+    justify-content: space-around;
+  }
+  .app img{
+    width: 320px;
+   top: 29%;
+   right: 40px;
+    }
+}
+
+@media (max-width: 769px){
+  .app{
+    justify-content: space-around;
+  }
+  .app img{
+    width: 320px;
+   top: 35%;
+   right: 230px;
+    }
+}
+@media (max-width: 821px){
+  .app{
+    justify-content: space-around;
+  }
+  .app img{
+    width: 320px;
+   top: 37%;
+   right: 250px;
+    }
+}
+@media (max-width: 1025px){
+  .app{
+    justify-content: space-around;
+  }
+  .app img{
+    width: 320px;
+   top: 39%;
+   right: 350px;
+    }
+}
+/* @media(m
+/* @media(max-width: 338px){
+  .app img{
+    width: 260px;
+   top: 30%;
+   right: 72px;
+    }
+    .app p{
+      margin-left: -60px;
+    }
+
+} */
