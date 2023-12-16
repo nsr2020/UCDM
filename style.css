@@ -79,7 +79,7 @@ top: 20%;
 
 
 body{
-  background-color: #9a98b5; 
+  background-image: url("https://res.cloudinary.com/dnju3aw4b/image/upload/v1702684298/UCDM/pajvolando_pbbauf.jpg");
 }
 
 @media (max-width:349px){
@@ -112,12 +112,8 @@ body{
   .app{
     justify-content: space-around;
   }
-  .app img{
-    width: 320px;
-   top: 33%;
-   right: 70px;
-    }
 }
+ 
 @media (max-width: 376px){
   .app{
     justify-content: space-around;
