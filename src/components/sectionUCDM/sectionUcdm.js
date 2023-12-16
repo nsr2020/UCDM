@@ -63,7 +63,9 @@ let contador = 1;
 export const cleanimgHeader = () =>{
 
      
-     sectionVideos.classList.remove("showed")
+     sectionVideos.innerHTML = ""
+     sectionVideos.style.display= "none"
+
       
     
      
