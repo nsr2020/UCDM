@@ -36,8 +36,8 @@ let contador = 1;
     iframe.height = video.height;
     iframe.allow = video.allow;
     iframe.allowFullscreen = video.afullS;
-    diviframe.style.backgroundImage = "url('https://res.cloudinary.com/dnju3aw4b/image/upload/v1702684529/UCDM/60fe96d53d624000048712a1_v4ustf.png')";
-     diviframe.style.backgroundSize = 'contain'; 
+/*     diviframe.style.backgroundImage = "url('https://res.cloudinary.com/dnju3aw4b/image/upload/v1702684529/UCDM/60fe96d53d624000048712a1_v4ustf.png')";
+     diviframe.style.backgroundSize = 'contain';  */
  
 
      diviframe.appendChild(iframe)

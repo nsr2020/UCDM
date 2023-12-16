@@ -4,8 +4,46 @@ iframe{
 display: none;
 width: 375px;
 height: 248px;
- 
+animation: colorChange 7s infinite;
+}
 
+
+@keyframes colorChange {
+  0% {
+    box-shadow: 
+      0 0 10px green,
+      0 0 20px green,
+      0 0 30px green,
+      0 0 40px green;
+  }
+  25% {
+    box-shadow: 
+      0 0 10px white,
+      0 0 20px white,
+      0 0 30px white,
+      0 0 40px white;
+  }
+  50% {
+    box-shadow: 
+      0 0 10px yellow,
+      0 0 20px yellow,
+      0 0 30px yellow,
+      0 0 40px yellow;
+  }
+  75% {
+    box-shadow: 
+      0 0 10px red,
+      0 0 20px red,
+      0 0 30px red,
+      0 0 40px red;
+  }
+  100% {
+    box-shadow: 
+      0 0 10px blue,
+      0 0 20px blue,
+      0 0 30px blue,
+      0 0 40px blue;
+  }
 }
 
 
@@ -26,10 +64,8 @@ section div{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 440px;
-  height: 320px;
-  background-repeat: no-repeat;
-  margin-top: 160px;
+ margin-top: 160px;
+ width: 100%;
 
 }
 
@@ -41,11 +77,6 @@ section div{
     margin-top: -117px;
    
     }
- section div{
-  margin-left: 0;
-  width: 290px;
-  height: 329px;
- }
 
 }
 
