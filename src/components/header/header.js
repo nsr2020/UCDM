@@ -2,7 +2,7 @@
 import { numeros } from "../../data/numeros"
 import { ucdm } from "../../data/ucdm"
 import { extraucdm } from "../../data/extra"
-import { cleanImgPicture, cleanimgHeader, createSectionVideos } from "../sectionUCDM/sectionUcdm"
+import {  cleanimgHeader, createSectionVideos } from "../sectionUCDM/sectionUcdm"
 import "./header.css"
 
 
@@ -25,7 +25,7 @@ export const createHeader =() =>{
     boton.classList.add(`boton${i}`)
 
     boton.addEventListener("click", () => {
-      cleanImgPicture ()
+      
       createSectionVideos(ucdm,i)
       
     },{ passive: true });
@@ -42,7 +42,7 @@ export const createHeader =() =>{
     img.classList.add(`img${conta}`);
     img.addEventListener("click", () => {
       console.log(`Clicked on image ${conta}`);
-      cleanImgPicture();
+     
       createSectionVideos(extraucdm, conta);
     }, { passive: true });
   
